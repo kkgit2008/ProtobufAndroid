@@ -44,7 +44,7 @@ jobs:
           > /usr/local/bin/termux-elf-cleaner
 
           chmod +x /usr/local/bin/termux-elf-cleaner
-      - uses: nttld/setup-ndk@v3
+      - uses: nttld/setup-ndk@v2
         id: setup-ndk
         with:
           ndk-version: r25b
